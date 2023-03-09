@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>RPS Game with UI</title>
+</head>
+<body>
+    <h1>Let's Play Some Game.</h1>
+    <h3>Select One.</h3>
+    <h2> Round : <span class="roundCount"> 0</span> </h2>
+    <div class="selections">
+        <button class="selectBtn" data-value="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button class="selectBtn" data-value="paper"><i class="fa-solid fa-hand"></i></button>
+        <button class="selectBtn" data-value="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+    </div>
+
+    <div class="resultbox">
+        <div>
+            <h2 class="yourResult">You</h2><span class="pWin">0</span>
+            <h3 class="pResults"></h3>
+        </div>
+        <div>
+            <h2 class="computerResult">Computer</h2><span class="cWin">0</span>
+            <h3 class="cResults"></h3>
+        </div>
+    </div>
+    <div class="result">
+        <div class="finalResultBox">
+            <h1 class="resultValue"></h1>
+            <button class="close">close</button>
+        </div>
+    </div>
+</body>
+</html>
