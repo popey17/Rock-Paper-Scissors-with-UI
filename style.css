@@ -74,7 +74,7 @@ span:not(.roundCount) {
 }
 
 .finalResultBox {
-    width: 50%;
+    width: min( 50%, 70% );
     aspect-ratio: 2 /1;
     background: white;
     display: flex;

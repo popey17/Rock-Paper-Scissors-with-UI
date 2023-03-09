@@ -23,9 +23,9 @@ selections.forEach(select => {
         if(roundCount === 5){
             finalResultBox.style.display="flex";
             if(pWinCount > cWinCount ) {
-                finalResut.innerText="Tsk proud on winning a PC!!"
+                finalResut.innerText="Tsk don't proud on winning a PC!!"
             } else if (cWinCount > pWinCount) {
-                finalResut.innerText="haha You lose Shame On You!!!"
+                finalResut.innerText="haha lose to a PC Shame On You!!!"
             } else if(cWinCount == pWinCount ){
                 finalResut.innerText="Ur luck is no better than a PC!!"
             }
